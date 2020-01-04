@@ -38,4 +38,10 @@ Run the following command and press the reset button:
 ./upload.sh /dev/ttyACM0
 ```
 
+Print serial communication
+--------------------------
 
+```bash
+./enable-communication.sh /dev/ttyACM0
+cat /dev/ttyACM0
+```
